@@ -12,15 +12,15 @@ import { BreakfastComponent } from './breakfast/breakfast.component';
 
 export const routes: Routes = [
   {path:"",redirectTo:"home",pathMatch:"full"},
-  {path:"home",component:HomeComponent},
-  {path:"about",component:AboutComponent},
-  {path:"meals",component:MealsComponent , children:[
+  {path:"home",component:HomeComponent, title:"Home"},
+  {path:"about",component:AboutComponent,title:"About"},
+  {path:"meals",component:MealsComponent ,title:"Meals" , children:[
     {path:"",redirectTo:"Seafood", pathMatch:"full"},
     {path:"Seafood" ,component:SeafoodComponent },
     {path:"Pasta" ,component:PastaComponent },
     {path:"Breakfast" ,component:BreakfastComponent }
   ]},
-  {path:"team",component:TeamComponent},
-  {path:"contacts",component:ContactsComponent},
+  {path:"team",component:TeamComponent , title:"Team"},
+  {path:"contacts",component:ContactsComponent, title:"Contacts"},
   {path:"**",component:NotFoundComponent},
 ];
