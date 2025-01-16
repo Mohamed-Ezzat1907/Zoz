@@ -1,0 +1,35 @@
+section .titleSection {
+  padding: .625rem 1rem;
+  margin-bottom: 0;
+  border-bottom:  .0625rem solid rgba(0, 0, 0, .180);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  background-color: #F8F8F8;
+}
+
+section .content {
+  padding: 1rem;
+}
+
+section  .content h5 {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+section .content p {
+  text-align: center;
+}
+
+section .footerSection {
+  padding: .625rem 1rem;
+  margin-bottom: 0;
+  border-top:  .0625rem solid rgba(0, 0, 0, .180);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212529bf;
+  background-color: #F8F8F8;
+}
